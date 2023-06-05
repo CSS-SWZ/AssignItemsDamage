@@ -9,7 +9,7 @@ It is necessary to modify plugins that handle damage to the player. (zombiereloa
 
 Add a check to see if the weapon is a trigger_hurt.
 
-This way you will avoid problems with ghost knockback (zombiereloaded), farm points in the statistics plugin (hlstats).
+This way you will avoid problems with Zombie:Reloaded (ghost boost zm), TopDefenders, HLstatsX (farm damage, points).
 
 ```ini
 // Checking trigger_hurt in player_hurt callback
